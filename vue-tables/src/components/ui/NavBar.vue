@@ -5,6 +5,7 @@
         <div className="menu">
           <li><a href="/">Time</a></li>
           <li><a href="/second">Date</a></li>
+          <li><a href="/table">Table</a></li>
         </div>
       </ul>
     </nav>

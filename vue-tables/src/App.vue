@@ -1,7 +1,10 @@
 <template>
 <div class="app">
 <NavBar />
-<DatePage />
+<!-- <RouterLink to="/"><TimePage /></RouterLink>
+<RouterLink to="/second"><DatePage /></RouterLink>
+<RouterLink to="/table"><BaseTable /></RouterLink> -->
+<BaseTable />
 </div>
 </template>
 
@@ -9,10 +12,13 @@
 import NavBar from './components/ui/NavBar'
 import DatePage from './components/pages/DatePage'
 import TimePage from './components/pages/TimePage'
+import BaseTable from './components/pages/BaseTable'
+// import { RouterLink } from 'vue-router'
+
 
 export default {
     components: {
-        NavBar, DatePage, TimePage
+        NavBar, DatePage, TimePage, BaseTable
     }
 }
 </script>
