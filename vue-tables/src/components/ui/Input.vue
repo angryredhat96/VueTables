@@ -18,5 +18,6 @@
     <style>
     input {
     font-size:6px;
+    margin: 0 auto;
 }
     </style>
